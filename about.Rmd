@@ -2,4 +2,10 @@
 title: "About me"
 ---
 
-Why I am awesome.
+- __Name:__ Junjie
+- __Ocupation:__ Student
+- __Hobbies:__ Learning sofware development instead of studying for exams.
+
+Here's my photo.
+
+![Taken by Shirley 2333](images/me.jpeg)

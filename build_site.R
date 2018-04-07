@@ -6,3 +6,4 @@ setwd("/Users/JunjieLiao/Documents/my_website/liaoj12.github.io")
 
 #render your website.
 rmarkdown::render_site()
+
