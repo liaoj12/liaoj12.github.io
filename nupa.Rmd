@@ -1,5 +1,0 @@
----
-title: "Nuclear & Particle Physics"
----
-
-Notes of Nuclear and Particle Physics

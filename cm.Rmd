@@ -1,5 +1,0 @@
----
-title: "Classical Mechanics"
----
-
-Notes of Classical Mechanics

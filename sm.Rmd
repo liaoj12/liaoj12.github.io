@@ -1,5 +1,0 @@
----
-title: "Statistical Mechanics"
----
-
-Notes of Statistical Mechanics
