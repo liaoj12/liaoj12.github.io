@@ -11,11 +11,11 @@
 - name: Physics Keywords
   keywords:
       - Nuclear Theory
-      - Numerical Methods
       - Effective Field Theory
       - Compton Scattering
+      - Numerical Methods
 
 - name: Computer Science Keywords
   keywords:
-      - Algorithms
-      - asdf
+      - Algorithm
+      - Machine Learning
