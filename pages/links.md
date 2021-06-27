@@ -1,14 +1,14 @@
 ---
 layout: page
 title: Links
-description: 没有链接的博客是孤独的
-keywords: 友情链接
+description: Everything connects!
+keywords: links
 comments: true
-menu: 链接
+menu: Links
 permalink: /links/
 ---
 
-> Friends
+> Suggested blogs
 
 <ul>
 {% for link in site.data.links %}
@@ -18,7 +18,7 @@ permalink: /links/
 {% endfor %}
 </ul>
 
-> Suggested blogs
+<!-- > Suggested blogs
 
 <ul>
 {% for link in site.data.links %}
@@ -26,4 +26,4 @@ permalink: /links/
   <li><a href="{{ link.url }}" target="_blank">{{ link.name}}</a></li>
   {% endif %}
 {% endfor %}
-</ul>
+</ul> -->
