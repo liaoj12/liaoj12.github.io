@@ -1,0 +1,21 @@
+- name: Programming Keywords
+  keywords:
+      - Fortran
+      - C/C++
+      - Python
+      - Java
+      - Julia
+      - Mathematica
+      - Matlab/Octave
+
+- name: Physics Keywords
+  keywords:
+      - Nuclear Theory
+      - Numerical Methods
+      - Effective Field Theory
+      - Compton Scattering
+
+- name: Computer Science Keywords
+  keywords:
+      - Algorithms
+      - asdf
