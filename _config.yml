@@ -2,16 +2,16 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: 
+url: https://mazhuang.org
 date_format: "ordinal"
-title: 博物
-subtitle: "asdf"
-description: "sadfkl"
-keywords: asdfj
-timezone: America/New_York
+title: 码志
+subtitle: "公众号：闷骚的程序员"
+description: "马壮的个人博客，公众号：闷骚的程序员"
+keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
+timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
-repository: liaoj12/liaoj12.github.io
+repository: mzlogin/mzlogin.github.io
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
@@ -26,7 +26,7 @@ components:
     # 不蒜子访问统计
     busuanzi:
         enabled: false
-        start_date: 2021-06-20
+        start_date: 2020-05-03
     # My Popular Repositories
     side_bar_repo:
         enabled: true
@@ -38,7 +38,7 @@ components:
     # 修改图片请替换 assets/images/qrcode.jpg
     qrcode:
         enabled: true
-        image_alt: asdf
+        image_alt: 闷骚的程序员
 # 压缩页面内容
 compress_html:
   clippings: all
@@ -49,12 +49,12 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: asdf 
+author: Zhuang Ma
 organization: 
 organization_url: 
-github_username: liaoj12
-location: DC, USA
-email: jackliao2012@gmail.com
+github_username: mzlogin
+location: Wuhan, China
+email: chumpma@gmail.com
 
 # ---------------- #
 #    Navigation    #
@@ -131,17 +131,17 @@ disqus:
     username: 
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: liaoj12
+    owner: mzlogin
     repo: blog-comments
     oauth:
-        client_id: 
-        client_secret: 
+        client_id: d2e1cbbd298958076462
+        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: liaoj12
+    owner: mzlogin
     repo: blog-comments
-    clientID: 
-    clientSecret: 
+    clientID: d2e1cbbd298958076462
+    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
@@ -154,9 +154,15 @@ simple_jekyll_search:
     # 最多显示多少条搜索结果
     limit: 10
 
+<<<<<<< HEAD
 ---------------- #
      Google      #
 ---------------- #
+=======
+# ---------------- #
+#      Google      #
+# ---------------- #
+>>>>>>> parent of e2a898e (update)
 google:
     analytics_id: UA-80669434-1
     adsense:
