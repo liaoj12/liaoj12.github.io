@@ -1,14 +1,14 @@
 ---
 layout: page
 title: Links
-description: Everything connects!
-keywords: links
+description: 没有链接的博客是孤独的
+keywords: 友情链接
 comments: true
-menu: Links
+menu: 链接
 permalink: /links/
 ---
 
-> Suggested blogs
+> God made relatives. Thank God we can choose our friends.
 
 <ul>
 {% for link in site.data.links %}
@@ -18,7 +18,7 @@ permalink: /links/
 {% endfor %}
 </ul>
 
-<!-- > Suggested blogs
+> 友情链接
 
 <ul>
 {% for link in site.data.links %}
@@ -26,4 +26,4 @@ permalink: /links/
   <li><a href="{{ link.url }}" target="_blank">{{ link.name}}</a></li>
   {% endif %}
 {% endfor %}
-</ul> -->
+</ul>

@@ -2,16 +2,16 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://liaoj12.github.io/
+url: https://mazhuang.org
 date_format: "ordinal"
-title: 博物
-subtitle: "HeisenbergCat"
-description: "HeisenbergCat"
-keywords: 博物, HeisenbergCat
-timezone: America/New_York
+title: 码志
+subtitle: "公众号：闷骚的程序员"
+description: "马壮的个人博客，公众号：闷骚的程序员"
+keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
+timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
-repository: liaoj12/liaoj12.github.io
+repository: mzlogin/mzlogin.github.io
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
@@ -26,7 +26,7 @@ components:
     # 不蒜子访问统计
     busuanzi:
         enabled: false
-        start_date: 2021-06-20
+        start_date: 2020-05-03
     # My Popular Repositories
     side_bar_repo:
         enabled: true
@@ -37,8 +37,8 @@ components:
     # 页面右上角，以及「关于」页面的二维码
     # 修改图片请替换 assets/images/qrcode.jpg
     qrcode:
-        enabled: false
-        image_alt: HeisenbergCat
+        enabled: true
+        image_alt: 闷骚的程序员
 # 压缩页面内容
 compress_html:
   clippings: all
@@ -49,12 +49,12 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: HeisenbergCat
+author: Zhuang Ma
 organization: 
 organization_url: 
-github_username: liaoj12
-location: DC, USA
-email: jackliao2012@gmail.com
+github_username: mzlogin
+location: Wuhan, China
+email: chumpma@gmail.com
 
 # ---------------- #
 #    Navigation    #
@@ -62,23 +62,31 @@ email: jackliao2012@gmail.com
 navs:
   -
     href: /
-    label: Home
+    label: 首页
 
   -
     href: /categories/
-    label: Categories
+    label: 分类
+
+#   -
+#     href: /archives/
+#     label: 归档
+
+#   -
+#     href: /open-source/
+#     label: 开源
 
   -
     href: /wiki/
-    label: Wiki
+    label: 维基
 
-  # -
-  #   href: /links/
-  #   label: Links
+  -
+    href: /links/
+    label: 链接
 
   -
     href: /about/
-    label: About
+    label: 关于
 
 # ---------------- #
 #       RSS        #
@@ -123,17 +131,17 @@ disqus:
     username: 
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: 
+    owner: mzlogin
     repo: blog-comments
     oauth:
-        client_id: 
-        client_secret: 
+        client_id: d2e1cbbd298958076462
+        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: liaoj12
+    owner: mzlogin
     repo: blog-comments
-    clientID: 5d173dc7d388ef2ce6fd
-    clientSecret:  e1a1f24f3a1d636906200c84c40cd25fd3f96f14
+    clientID: d2e1cbbd298958076462
+    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
@@ -149,10 +157,10 @@ simple_jekyll_search:
 # ---------------- #
 #      Google      #
 # ---------------- #
-# google:
-#     analytics_id: UA-80669434-1
-#     adsense:
-#         footer: true
-#         sidebar: true 
-#         content_header: true
-#         content_footer: false
+google:
+    analytics_id: UA-80669434-1
+    adsense:
+        footer: true
+        sidebar: true 
+        content_header: true
+        content_footer: false
