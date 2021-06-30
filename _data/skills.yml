@@ -1,19 +1,21 @@
-- name: Software Engineer Keywords
+- name: Physics Keywords
   keywords:
-      - Java
-      - C++
+      - Nuclear Theory
+      - Effective Field Theory
+      - Compton Scattering on nucleus
+
+- name: Programming Languages Keywords
+  keywords:
+      - Fortran
+      - C/C++
       - Python
-      - Design Patterns
+      - Mathematica
+      - OpenMP
+      - Matlab/Octave
+      - Java
 
-- name: Mobile Developer Keywords
+- name: Computer Science Keywords
   keywords:
-      - Android
-      - Reverse Engineering
-
-- name: Windows Developer Keywords
-  keywords:
-      - Win32 SDK
-      - DuiLib
-      - WTL
-      - COM
-      - WinDbg
+      - OpenMP/MPI
+      - Numerical Methods
+      - Machine Learning
